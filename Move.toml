@@ -1,0 +1,16 @@
+[package]
+name = "TokenAllowanceSystem"
+version = "1.0.0"
+authors = []
+
+[addresses]
+hrithvika_addr = "14d9d4d5cbd29b4f54ca4617e91b276adff0f4707dfe1ef47470632f67eeb7f6"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
